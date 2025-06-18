@@ -39,7 +39,7 @@ Vpuna is built with:
 
 ## 🔒 Licensing
 
-This is a closed-source SaaS platform for now. Open source/core licensing (Elastic or dual license) may be introduced later.
+This is a closed-source SaaS platform for now. Open source or open core licensing (Elastic or dual license) may be introduced later.
 
 ---
 
