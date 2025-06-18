@@ -19,7 +19,7 @@ Vpuna AI Search is a full-stack AI-native search infrastructure that enables dev
 
 - 🌍 Website: [https://aisearch.vpuna.com](https://aisearch.vpuna.com)
 - 📚 Docs: [https://aisearch.vpuna.com/docs](https://aisearch.vpuna.com/docs)
-- ✨ Developer Console: [https://console.aisearch.vpuna.com/docs](https://console.aisearch.vpuna.com/docs)
+- ✨ Developer Console: [https://console.aisearch.vpuna.com](https://console.aisearch.vpuna.com)
 
 ---
 
