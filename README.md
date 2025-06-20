@@ -46,5 +46,5 @@ This is a closed-source SaaS platform for now. Open source or open core licensin
 ## 📫 Contact
 
 Have a question or feedback?  
-Get in touch at [support@aisearch.vpuna.com](mailto:support@aisearch.vpuna.com)
-Please raise any issues or feature requests at [https://github.com/vpuna/vpuna-ai-search/issues](https://github.com/vpuna/vpuna-ai-search/issues)
+- Get in touch at [support@aisearch.vpuna.com](mailto:support@aisearch.vpuna.com)
+- Please raise any issues or feature requests at [https://github.com/vpuna/vpuna-ai-search/issues](https://github.com/vpuna/vpuna-ai-search/issues)
