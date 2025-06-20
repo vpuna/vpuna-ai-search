@@ -1,6 +1,6 @@
 # Vpuna AI Search
 
-**Developer-first semantic search platform** for structured and unstructured content — with support for OpenAI, Claude, pgvector, and multi-tenant architecture.
+**Vpuna AI Search is a developer-first platform** that enables you to embed, index, and perform semantic search over structured and unstructured data using vector embeddings, with optional summarization powered by large language models (LLMs).
 
 ---
 
@@ -9,8 +9,8 @@
 Vpuna AI Search is a full-stack AI-native search infrastructure that enables developers to:
 
 - Upload and index JSON, YAML, CSV, PDF, and DOCX
-- Generate and store vector embeddings using your LLM of choice
-- Query semantically and summarize with LLMs
+- Generate and store vector embeddings
+- Query semantically and optionally summarize with LLMs
 - Manage tenants, projects, and schemas through a secure developer console
 
 ---
@@ -33,7 +33,7 @@ Vpuna is built with:
 - **Supabase** for storage, auth, queues, pgvector, and edge functions
 - **Traefik + Nginx** for container routing and web hosting
 
-> [Read the full architecture overview](./ARCHITECTURE.md) (optional if public)
+> [Read the full architecture overview](https://aisearch.vpuna.com/docs/architecture) (optional if public)
 
 ---
 
