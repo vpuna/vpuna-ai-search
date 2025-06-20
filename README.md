@@ -33,7 +33,7 @@ Vpuna is built with:
 - **Supabase** for storage, auth, queues, pgvector, and edge functions
 - **Traefik + Nginx** for container routing and web hosting
 
-> [Read the full architecture overview](https://aisearch.vpuna.com/docs/architecture) (optional if public)
+> [Read the full architecture overview](https://aisearch.vpuna.com/docs/architecture)
 
 ---
 
