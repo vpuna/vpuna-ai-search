@@ -42,7 +42,7 @@ Vpuna is built with:
 - **Signup / Login**
     - Signup and Login with Google, Github
     - Signup and Login with email (Coming Soon)   
-- **System Setings**  
+- **System Setings**  (https://aisearch.vpuna.com/docs/ui-console/account-management)
     - Account Managemet
         - Change Password for non social login (Coming Soon)
         - Delete Account
@@ -88,6 +88,13 @@ Vpuna is built with:
             - Test search API along with metadata filters.
             - Show Curl request for the executed search API
             - Show search result in both UI and JSON form
+- **APIs**
+    - POST Search
+        - https://aisearch.vpuna.com/docs/api/search-documents 
+    - POST Embed
+        - https://aisearch.vpuna.com/docs/api/embed-document
+    - DELETE Embed
+        - https://aisearch.vpuna.com/docs/api/delete-document
     
 
 > [Read the full architecture overview](https://aisearch.vpuna.com/docs/architecture)
