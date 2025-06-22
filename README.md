@@ -64,8 +64,10 @@ Vpuna is built with:
             - Support for local CPU based Hugging Face Transformers. Only supports all-MiniLM-L6-v2 for now. Other Local model support is coming soon
             - Hugging Face Cloud (Coming Soon)
             - OpenAI (Coming Soon)
-        - Manage LLM Sevice (Coming Soon )
+        - Manage LLM Sevice (Coming Soon)
             - This feature allows users to configure local or cloud based LLM services for LLM summarization, chatbots etc. Think built in RAG
+        - Manage MCP Server (Coming Soon)
+            - Enable/Disable MCP server access. Use your search indexes to provide more context to your MCP Clients
 - **Project**
     - Stats
         - Total Documents, Total Searches (Coming Soon), Total Users, Total Storage
@@ -74,11 +76,14 @@ Vpuna is built with:
             - Manage ( create, edit and delete ) parsing jsonpath configuration to select Reference ID, Text to Index and Metadaa to store for API return data and filters.
             - Supported file types are txt, json object and json array files.
             - pdf, docx, csv, xslx ( Coming Soon)
-            - Enrich technical numeric fields with additional context by selecting one or more felds and provide text context.
+            - Enrich technical numeric fields with additional context by selecting one or more felds and provide text context. (Coming Soon)
+            - Customize ranking. Currently the results are ranked based on the similarity score. This feature will allow the users to overwrite the detail ranking based on any of the fields (Coming Soon)
         - Upload Files
             - Upload files with or wutiout associated configurations
             - Manually enter hard coded configurations if needed
             - Show Curl request to use the embed API based on an existing uploaded file from the developer console (Coming Soon)
+            - Connect to other data sorces like databases, git repos, gmail, google drive etc and configure pooling (Coming Soon)
+            - Configure OCR for PDFs and PPTX where the text are embedded in the images (Coming Soon)
         - Search Documents
             - Test search API along with metadata filters.
             - Show Curl request for the executed search API
