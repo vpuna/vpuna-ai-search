@@ -49,12 +49,12 @@ Vpuna is built with:
     - User Management
         - Assign users to tenants as Admin, Developer or Monitor
         - Assign users to projects as Admin, Developer or Monitor
-- **Tenants**
+- **Tenants** (https://aisearch.vpuna.com/docs/ui-console/tenants)
     - Stats
         - Total Tenants, Total Projects, Total Files
     - Management
         - Manage Tenant - Create tenant, edit tenant, delete tenant
-- **Tenant-Projects**
+- **Tenant-Projects** (https://aisearch.vpuna.com/docs/ui-console/projects)
     - Stats
         - Total Projects, Total Files, Team Members 
     - Management
@@ -68,7 +68,7 @@ Vpuna is built with:
             - This feature allows users to configure local or cloud based LLM services for LLM summarization, chatbots etc. Think built in RAG
         - Manage MCP Server (Coming Soon)
             - Enable/Disable MCP server access. Use your search indexes to provide more context to your MCP Clients
-- **Project**
+- **Project** (https://aisearch.vpuna.com/docs/ui-console/project)
     - Stats
         - Total Documents, Total Searches (Coming Soon), Total Users, Total Storage
     - File Management
@@ -84,6 +84,10 @@ Vpuna is built with:
             - Show Curl request to use the embed API based on an existing uploaded file from the developer console (Coming Soon)
             - Connect to other data sorces like databases, git repos, gmail, google drive etc and configure pooling (Coming Soon)
             - Configure OCR for PDFs and PPTX where the text are embedded in the images (Coming Soon)
+        - Manage Files
+            - List uploaded files, download file and delete file
+            - Manage document items ( when json arrays are uploaded, an item is is each array object ), view and delete items
+            - Manage chunks. view and delete chunks
         - Search Documents
             - Test search API along with metadata filters.
             - Show Curl request for the executed search API
