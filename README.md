@@ -39,22 +39,22 @@ Vpuna is built with:
 
 ## 📦 Features
 
-**Signup / Login**
+- **Signup / Login**
     - Signup and Login with Google, Github
     - Signup and Login with email (Coming Soon)   
-**System Setings**  
+- **System Setings**  
     - Account Managemet
         - Change Password for non social login (Coming Soon)
         - Delete Account
     - User Management
         - Assign users to tenants as admins, developers or monitors
         - Assign users to projects as admins, developers or monitors
-**Tenants**
+- **Tenants**
     - Stats
         - Total Tenants, Total Projects, Total Files
     - Management
         - Create tenant, edit tenant, delete tenant
-**Tenant**
+- **Tenant**
     - Create project and delete project
     
 
