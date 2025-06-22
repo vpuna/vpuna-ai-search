@@ -47,15 +47,23 @@ Vpuna is built with:
         - Change Password for non social login (Coming Soon)
         - Delete Account
     - User Management
-        - Assign users to tenants as admins, developers or monitors
-        - Assign users to projects as admins, developers or monitors
+        - Assign users to tenants as Admin, Developer or Monitor
+        - Assign users to projects as Admin, Developer or Monitor
 - **Tenants**
     - Stats
         - Total Tenants, Total Projects, Total Files
     - Management
-        - Create tenant, edit tenant, delete tenant
-- **Tenant**
-    - Create project and delete project
+        - Manage Tenant - Create tenant, edit tenant, delete tenant
+- **Tenant-Projects**
+    - Stats
+        - Total Projects, Total Files, Team Members 
+    - Management
+        - Manage project - Create project, edit project name and description, delete project
+        - Manage API Keys - Create API Keys, assign permissons to search and embed apis, assign expiry date, revoke keys
+        - Manage Embedding Service
+            - Support for local CPU based Hugging Face Transformers. Only supports all-MiniLM-L6-v2 for now. Other Local model support is coming soon
+            - Hugging Face Cloud (Coming Soon)
+            - OpenAI (Coming Soon)
     
 
 > [Read the full architecture overview](https://aisearch.vpuna.com/docs/architecture)
