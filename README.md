@@ -40,8 +40,9 @@ Vpuna is built with:
 ## 📦 Features
 
 - **System Setings**
-    - Account Managemet - Change Password for non social login
-    - Account Management - Delete Account
+    - Account Managemet
+        - Change Password for non social login
+        - Delete Account
 
 > [Read the full architecture overview](https://aisearch.vpuna.com/docs/architecture)
 
