@@ -64,6 +64,25 @@ Vpuna is built with:
             - Support for local CPU based Hugging Face Transformers. Only supports all-MiniLM-L6-v2 for now. Other Local model support is coming soon
             - Hugging Face Cloud (Coming Soon)
             - OpenAI (Coming Soon)
+        - Manage LLM Sevice (Coming Soon )
+            - This feature allows users to configure local or cloud based LLM services for LLM summarization, chatbots etc. Think built in RAG
+- **Project**
+    - Stats
+        - Total Documents, Total Searches (Coming Soon), Total Users, Total Storage
+    - File Management
+        - Manage Confogurations
+            - Manage ( create, edit and delete ) parsing jsonpath configuration to select Reference ID, Text to Index and Metadaa to store for API return data and filters.
+            - Supported file types are txt, json object and json array files.
+            - pdf, docx, csv, xslx ( Coming Soon)
+            - Enrich technical numeric fields with additional context by selecting one or more felds and provide text context.
+        - Upload Files
+            - Upload files with or wutiout associated configurations
+            - Manually enter hard coded configurations if needed
+            - Show Curl request to use the embed API based on an existing uploaded file from the developer console (Coming Soon)
+        - Search Documents
+            - Test search API along with metadata filters.
+            - Show Curl request for the executed search API
+            - Show search result in both UI and JSON form
     
 
 > [Read the full architecture overview](https://aisearch.vpuna.com/docs/architecture)
