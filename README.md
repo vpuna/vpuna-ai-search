@@ -37,6 +37,16 @@ Vpuna is built with:
 
 ---
 
+## 📦 Features
+
+- **System Setings**
+    - Account Managemet - Change Password for non social login
+    - Account Management - Delete Account
+
+> [Read the full architecture overview](https://aisearch.vpuna.com/docs/architecture)
+
+---
+
 ## 🔒 Licensing
 
 This is a closed-source SaaS platform for now. Open source or open core licensing (Elastic or dual license) may be introduced later.
