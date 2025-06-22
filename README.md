@@ -100,9 +100,6 @@ Vpuna is built with:
     - DELETE Embed
         - https://aisearch.vpuna.com/docs/api/delete-document
     
-
-> [Read the full architecture overview](https://aisearch.vpuna.com/docs/architecture)
-
 ---
 
 ## 🔒 Licensing
