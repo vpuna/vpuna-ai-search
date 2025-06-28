@@ -1,6 +1,6 @@
 # Vpuna AI Search
 
-**Vpuna AI Search is a developer-first platform** that enables you to embed, index, and perform semantic search over structured and unstructured data using vector embeddings, with optional summarization powered by large language models (LLMs).
+**Vpuna AI Search is a developer-first platform** that enables you to embed, index, and perform semantic search over structured and unstructured data using vector embeddings, with optional summarization powered by large language models (LLMs). It is fully MCP-compatible, allowing AI agents and MCP clients to access and interpret its semantic capabilities directly.
 
 ---
 
