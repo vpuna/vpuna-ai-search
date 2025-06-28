@@ -8,9 +8,11 @@
 
 Vpuna AI Search is a full-stack AI-native search infrastructure that enables developers to:
 
-- Upload and index TXT, JSON (YAML, CSV, PDF, and DOCX - Coming Soon)
+- Upload and index TXT, JSON (YAML, CSV, PDF, and DOCX — Coming Soon)
 - Generate and store vector embeddings
-- Query semantically and optionally summarize with LLMs
+- Query semantically, power chatbots, and summarize with LLMs
+- Replace traditional keyword search in apps, sites, or internal tools
+- Expose search endpoints to MCP clients and AI agents via machine-readable schemas
 - Manage tenants, projects, and schemas through a secure developer console
 
 ---
