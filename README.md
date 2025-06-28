@@ -64,7 +64,7 @@ Vpuna is built with:
             - Support for local CPU based Hugging Face Transformers. Only supports all-MiniLM-L6-v2 for now. Other Local model support is coming soon
             - Hugging Face Cloud (Coming Soon)
             - OpenAI (Coming Soon)
-        - Manage MCP Server
+        - Manage MCP Service
             - Use your search indexes to provide more context to your MCP Clients like Calude.ai, OpenAI Playground etc
             - Set your own tool name and description (Coming Soon)
         - Manage LLM Sevice (Coming Soon)
