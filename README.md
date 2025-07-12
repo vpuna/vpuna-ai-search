@@ -1,18 +1,18 @@
 # Vpuna AI Search
 
-**Vpuna AI Search is a developer-first platform** that enables you to embed, index, and perform semantic search over structured and unstructured data using vector embeddings, with optional summarization powered by large language models (LLMs). It is fully MCP-compatible, allowing AI agents and MCP clients to access and interpret its semantic capabilities directly.
+**Vpuna AI Search is a developer first platform** that enables you to embed, index, and perform semantic search over structured and unstructured data using vector embeddings, with optional summarization powered by large language models (LLMs). It is fully MCP compatible, allowing AI agents and MCP clients to access and interpret its semantic capabilities directly.
 
 ---
 
 ## 🚀 What is Vpuna AI Search?
 
-Vpuna AI Search is a full-stack AI-native search infrastructure that enables developers to:
+Vpuna AI Search is a full stack AI-native search infrastructure that enables developers to:
 
 - Upload and index TXT, JSON (YAML, CSV, PDF, and DOCX — Coming Soon)
 - Generate and store vector embeddings
 - Query semantically, power chatbots, and summarize with LLMs
 - Replace traditional keyword search in apps, sites, or internal tools
-- Expose search endpoints to MCP clients and AI agents via machine-readable schemas
+- Power AI agents with your own data and built in MCP server
 - Manage tenants, projects, and schemas through a secure developer console
 
 ---
@@ -69,8 +69,10 @@ Vpuna is built with:
         - Manage MCP Service
             - Use your search indexes to provide more context to your MCP Clients like Calude.ai, OpenAI Playground etc
             - Set your own tool name and description (Coming Soon)
-        - Manage LLM Sevice (Coming Soon)
+        - Manage LLM Sevice
             - This feature allows users to configure local or cloud based LLM services for LLM summarization, chatbots etc. Think built in RAG
+            - OpenAI is currently supported
+            - Other service providers are coming soon
 - **Project** (https://aisearch.vpuna.com/docs/ui-console/project)
     - Stats
         - Total Documents, Total Searches (Coming Soon), Total Users, Total Storage
@@ -92,9 +94,11 @@ Vpuna is built with:
             - Manage document items ( when json arrays are uploaded, an item is is each array object ), view and delete items
             - Manage chunks. view and delete chunks
         - Search Documents
-            - Test search API along with metadata filters.
+            - Playground to test search API along with metadata filters.
             - Show Curl request for the executed search API
             - Show search result in both UI and JSON form
+        - Chat With Documents
+            - Playground to test chat and AI agent features. This requires LLM Service to be configured in Project settings.
 - **APIs**
     - POST Search
         - https://aisearch.vpuna.com/docs/api/search-documents 
